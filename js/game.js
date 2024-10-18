@@ -25,8 +25,7 @@ const createElement = (tag, className) => {
 
 let firstCard = '';
 let secondCard = '';
-let loop; // Variável global para o loop do timer
-
+let loop; 
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
