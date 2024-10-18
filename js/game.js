@@ -30,7 +30,7 @@ let loop; // Variável global para o loop do timer
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  if (disabledCards.length >= 24) { // Verifique se o número de cartas está correto 24
+  if (disabledCards.length >= 24) { 
     clearInterval(loop);
     const modal = document.querySelector('.modal');
     modal.classList.add('active')
@@ -82,7 +82,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  // Corrigindo o caminho da imagem
+ 
   front.style.backgroundImage = `url('../Imagens/${character}.png')`;
 
   card.appendChild(front);
