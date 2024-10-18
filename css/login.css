@@ -57,21 +57,21 @@ form {
     width: 100%;*/
   
   .login__button {
-    background-color: transparent; /* Torna o fundo do botão transparente */
-    border: none; /* Remove borda do botão */
-    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
-    display: inline-flex; /* Para centralizar conteúdo, se necessário */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    padding: 10px; /* Adicione algum preenchimento */
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px; 
   }
   
   .play-icon {
-    width: 300px; /* Defina a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-right: 0px; /* Espaço entre a imagem e o texto */
-    display: block; /* Remove qualquer espaço em branco ao redor da imagem */
-    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+    width: 300px; 
+    height: auto; 
+    margin-right: 0px; 
+    display: block; 
+    cursor: pointer; 
   }
   
   .login__button:disabled {
